@@ -182,6 +182,29 @@ public class OpenAiApi {
 	 * <a href="https://platform.openai.com/docs/models/gpt-3-5-turbo">GPT-3.5 Turbo</a>.
 	 */
 	public enum ChatModel implements ChatModelDescription {
+		/**
+		 * Points to the most recent snapshot of the o1 model:o1-preview-2024-09-12
+		 */
+		O_1_PREVIEW("o1-preview"),
+
+		
+		/**
+		 * Latest o1 model snapshot
+		*/
+		O_1_PREVIEW-2024-09-12("o1-preview-2024-09-12"),
+
+
+		/**
+		 * Points to the most recent o1-mini snapshot:o1-mini-2024-09-12
+		*/
+		O_1_MINI("o1-mini"),
+
+
+		/**
+		 * Latest o1-mini model snapshot
+		*/
+		O_1_MINI_2024_09_12("o1-mini-2024-09-12"),
+
 
 		/**
 		 * Multimodal flagship model that’s cheaper and faster than GPT-4 Turbo. Currently
